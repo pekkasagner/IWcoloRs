@@ -21,7 +21,20 @@ test <- tibble::tribble(
           "1",   "2"
 )
 #Beispielplot:
-ggplot(data = test, aes(x = x_variable, y = y_variable)) +
+(plot <- ggplot(data = test, aes(x = x_variable, y = y_variable)) +
           geom_point() +
           theme_IW()
+)
+```
+## scale_color_IW()
+Die Funktion `scale_color_IW()` legt die Farbe für geplottete Objekte, wie Punkte oder Linien fest. Beispiel:
+```{r}
+ plot +
+ scale_color_IW()
+```
+## scale_fill_IW()
+Die Funktion `scale_fill_IW()` legt die Farbe für geplottete Objekte, wie Polygone fest. Beispiel:
+```{r}
+ plot +
+ scale_fill_IW()
 ```
