@@ -1,11 +1,16 @@
 Package: IWcoloRs
-Type: Package
-Title: Mit IWcoloRs können R-Grafiken im IW-CD erstellt werden 
-Version: 0.1.0
-Author: Pekka Sagner
-Maintainer: Pekka Sagner <sagner@iwkoeln.de>
-Description: KWcoloRs enthält ein theme, sowie scale_color und scale_fill Funktionen.
-License: GPL
+Title: IW colors and theme
+Version: 0.0.1
+Authors@R: 
+    person(given = "Pekka",
+           family = "Sagner",
+           role = c("aut", "cre"),
+           email = "sagner@iwkoeln.de",
+           comment = c(Twitter = "@pekkato"))
+Description: IWcoloRs enthält ein theme, sowie scale_color und scale_fill Funktionen.
+License: GNU GENERAL PUBLIC LICENSE Version 3
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.1
+URL: https://github.com/pekkasagner/IWcoloRs
