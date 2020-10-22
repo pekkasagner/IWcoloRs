@@ -1,14 +1,5 @@
 # IWcoloRs
----
-title: "README"
-author: "Pekka Sagner"
-date: "22 Oktober 2020"
-output: html_document
----
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 # Installation
 ***
