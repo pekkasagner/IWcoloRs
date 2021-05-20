@@ -10,11 +10,12 @@
 
 
 
-scale_color_IW <- function(...){
+scale_color_woodworkR <- function(...){
           library(scales)
-          discrete_scale("colour","IW",manual_pal(values = c("#2e4964", "#748a9d",  "#e0c599", "#32727c", "#ca9c4d", "#871811", "#735069", "#172532", "#916A2C", "#19393E", "#6B5520", "#430C09")), ...)
+          discrete_scale("fill","IW",manual_pal(values = c("#2e4964", "#748a9d",  "#e0c599", "#32727c", "#ca9c4d", "#871811", "#735069", "#172532", "#916A2C", "#19393E", "#6B5520", "#430C09")), ...)
 
 }
+
 
 
 
