@@ -46,10 +46,3 @@ theme_IW <- function(base_size=14) {
 }
 
 
-test <- tibble(x = 1:3, y = 1:3)
-
-test %>%
-ggplot() +
-          geom_point(aes(x, y)) +
-          theme_IW()
-
