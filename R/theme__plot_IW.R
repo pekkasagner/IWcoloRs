@@ -1,6 +1,5 @@
 #' Ein Paket für R-Grafiken im Farbschema des Instituts der deutschen Wirtschaft
 #' @rdname visualization
-#' @param hist_data A table of weather variables with PWS created by hist_data function
 #' @param variable A character string of variable name
 #' @examples check
 #' @import ggplot2
@@ -21,15 +20,16 @@ theme_IW <- function(base_size=14) {
                             plot.background = element_rect(colour = NA),
                             panel.border = element_rect(colour = NA),
                             axis.title = element_text(face = "bold",size = rel(1)),
-                            axis.title.y = element_text(angle = 90,vjust =2),
-                            axis.title.x = element_text(vjust = -0.2),
+                            axis.title.y = element_text(angle = 90,vjust = 2, color = "#2e4964"),
+                            axis.title.x = element_text(vjust = -0.2, color = "#2e4964"),
                             axis.text = element_text(colour="#2e4964"),
+                            axis.text.x = element_text(face = "bold"),
                             axis.line.y = element_line(colour= NA),
-                            axis.line.x = element_line(colour="#2e4964", size = 2),
-                            axis.ticks.x = element_line(colour="#2e4964", size = 2),
+                            axis.line.x = element_line(colour="#2e4964", size = .8),
+                            axis.ticks.x = element_blank(),
                             axis.ticks.y = element_blank(),
                             #panel.grid.major = element_line(colour="#f0f0f0"),
-                            panel.grid.major.y = element_line(colour= "#748a9d", size = 1),
+                            panel.grid.major.y = element_line(colour= "#748a9d", size = .2),
                             panel.grid.major.x = element_blank(),
                             panel.grid.minor = element_blank(),
                             legend.key = element_rect(colour = NA),
@@ -37,12 +37,11 @@ theme_IW <- function(base_size=14) {
                             legend.direction = "horizontal",
                             legend.key.size= unit(0.2, "cm"),
                             legend.spacing = unit(0, "cm"),
-                            legend.title = element_text(face="italic"),
+                            legend.title = element_text(face="bold", color = "#2e4964"),
+                            legend.text = element_text(color = "#2e4964"),
                             plot.margin = margin(10,5,5,5, unit = "mm"),
                             strip.background=element_rect(colour="#748a9d",fill="#748a9d"),
                             strip.text = element_text(face="bold")
                     ))
 
 }
-
-
