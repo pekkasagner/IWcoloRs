@@ -12,6 +12,6 @@ License: GNU GENERAL PUBLIC LICENSE Version 3
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+RoxygenNote: 7.1.2
 URL: https://github.com/pekkasagner/IWcoloRs
 Imports: ggplot2, scales, ggthemes
